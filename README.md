@@ -14,3 +14,7 @@ BIP 39, which stands for Bitcoin Improvement Proposal 39, introduced a crucial s
 Cryptographic keys, which are essential for accessing and managing digital assets, are typically long, complex, and challenging for humans to remember. BIP 39 introduced a method to represent these keys as a series of 12 to 24 words, chosen from a specific list of 2048 words. This sequence of words, known as a mnemonic seed phrase, can be used to derive the cryptographic keys required for a wallet.
 
 When you wrote down these words many years ago, and are not sure about one of the words, there is a tool I wrote (in C++ / MFC), that helps you find the word based on the part that you recognize.
+
+## Unit tests
+
+`Tests/Bip39FinderTests` checks dialog and control identifiers in `FindBit-39/resource.h`. Build Release|x64.
